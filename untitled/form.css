@@ -1,0 +1,36 @@
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: content-box;
+    border: 1px solid black;
+
+}
+
+label {
+    width: 200px;
+    display: block;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#hero2{
+    text-align: center;
+    background-image: url("img/priroda.jpg");
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pageHeading2{
+    font-size: 30px;
+    margin: 0;
+    padding-top: 25px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+
+}

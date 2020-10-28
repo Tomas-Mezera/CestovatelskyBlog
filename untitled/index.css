@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+#menu {
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+a {
+    color: white;
+}
+
+
+#menu a {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.button{
+    background-color: dimgray;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    border: 2px solid white;
+}
+.pageHeading{
+    font-size: 100px;
+    margin: 0;
+    padding-top: 10px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+
+}
+#hero{
+    text-align: center;
+    background-image: url("img/priroda.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+uživatelská čast
+ */
+.blogPostPreview {
+    border: 1px dotted lightgray;
+}
+
+.blogPostPreview > img {
+    width: 300px;
+}
+
+#blogPostList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.centeredContentWrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.footerHeading {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+footer a {
+    font-size: 16px;
+}
+
